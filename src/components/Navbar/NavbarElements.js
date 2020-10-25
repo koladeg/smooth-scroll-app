@@ -50,7 +50,8 @@ export const MobileIcon = styled.div `
         postion: absolute;
         top: 0;
         right: 0;
-        transform: 1.8rem;
+        transform: translate(-100%, 30%);
+        font-size: 1.8rem;
         cursor: pointer;
         color: #fff;
     }
@@ -68,7 +69,7 @@ export const NavMenu = styled.ul `
     }
 `
 
-export const NavItem = styled.li `
+export const NavItem = styled.li`
     height:80px;
 `
 
@@ -90,7 +91,7 @@ export const NavBtn = styled.nav `
 display: flex;
 align-items: center;
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
 display: none;
 }
 `
@@ -98,6 +99,7 @@ display: none;
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
     background: #01bf71;
+    text-decoration: none;
     white-space: nowrap;
     padding: 10px 22px;
     color: #010606;
