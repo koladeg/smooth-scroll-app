@@ -18,7 +18,7 @@ function HeroSection() {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Banking made with ease</HeroH1>
-                <HeroP>Sign up for a account today and 20% in credit towards your data plan</HeroP>
+                <HeroP>Sign up for a account today and get 20% off credit charges towards your data plan</HeroP>
                 <HeroBtnWrapper>
                     <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>Get started{hover ? <ArrowForward /> : <ArrowRight />}</Button>
                 </HeroBtnWrapper>
