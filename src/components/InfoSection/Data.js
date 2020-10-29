@@ -2,7 +2,6 @@ import svg1 from '../../images/party.svg'
 import svg2 from '../../images/svg-1.svg'
 import svg3 from '../../images/Texting.svg'
 import svg4 from '../../images/tools.svg'
-import svg5 from '../../images/Virtual offices.svg'
 
 
 
