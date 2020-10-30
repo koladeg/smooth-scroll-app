@@ -6,7 +6,7 @@ import { ServicesCard, ServicesContainer, ServicesH1, ServicesH2, ServicesIcon, 
 
 function Services() {
     return (
-        <ServicesContainer>
+        <ServicesContainer id='services'>
             <ServicesH1>Our Services</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
