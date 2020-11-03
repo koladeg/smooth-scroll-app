@@ -1,8 +1,14 @@
 import React from 'react'
+import { animateScroll as scroll } from 'react-scroll';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { FooterContainer, SocialLogo, FooterLink, FooterLinksContainer, FooterLinksItems, FooterLinksTitle, FooterLinksWrapper, FooterWrap, SocialIconLink, SocialIcons, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElements'
 
 const Footer = () => {
+
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    };
+
     return (
         <FooterContainer>
             <FooterWrap>
@@ -43,7 +49,7 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to= '/'>Larry GAGA</SocialLogo>
+                        <SocialLogo to= '/' onClick={toggleHome}>Larry GAGA</SocialLogo>
                         <WebsiteRights>{new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href='/' target='_blank' aria-label="Facebook">

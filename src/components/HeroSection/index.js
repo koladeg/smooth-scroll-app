@@ -20,7 +20,9 @@ function HeroSection() {
                 <HeroH1>Banking made with ease</HeroH1>
                 <HeroP>Sign up for a account today and get 20% off credit charges towards your data plan</HeroP>
                 <HeroBtnWrapper>
-                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>Get started{hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' 
+                    smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                    >Get started{hover ? <ArrowForward /> : <ArrowRight />}</Button>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>
