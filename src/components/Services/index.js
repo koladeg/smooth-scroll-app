@@ -30,8 +30,7 @@ function Services() {
                         Unlock our special membership card that returns 5% on all purchases
                     </ServicesP>
                 </ServicesCard>
-            </ServicesWrapper>
-            
+            </ServicesWrapper>          
         </ServicesContainer>
     )
 }
