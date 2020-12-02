@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import Video from '../../video/video.mp4'
+import Video from '../../video/Working.mp4'
 import { ArrowRight, Button } from '../ButtonElement'
 import { ArrowForward, HeroBg, HeroBtnWrapper, HeroContainer, HeroContent, HeroH1, HeroP, VideoBg } from './HeroElements'
 
@@ -17,8 +17,8 @@ function HeroSection() {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' /> 
             </HeroBg>
             <HeroContent>
-                <HeroH1>Banking made with ease</HeroH1>
-                <HeroP>Sign up for a account today and get 20% off credit charges towards your data plan</HeroP>
+                <HeroH1>Virtual work made to look easy</HeroH1>
+                <HeroP>Sign up and join our Digital Network here to receive offers, updates on events and news about our available spaces</HeroP>
                 <HeroBtnWrapper>
                     <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' 
                     smooth={true} duration={500} spy={true} exact='true' offset={-80}

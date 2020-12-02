@@ -49,7 +49,7 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to= '/' onClick={toggleHome}>Larry GAGA</SocialLogo>
+                        <SocialLogo to= '/' onClick={toggleHome}>Virtual IB</SocialLogo>
                         <WebsiteRights>{new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href='/' target='_blank' aria-label="Facebook">

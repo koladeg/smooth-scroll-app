@@ -1,7 +1,7 @@
-import svg1 from '../../images/party.svg'
-import svg2 from '../../images/svg-1.svg'
-import svg3 from '../../images/Texting.svg'
-import svg4 from '../../images/tools.svg'
+import svg1 from '../../images/svg-1.svg'
+import svg2 from '../../images/svg-2.svg'
+import svg3 from '../../images/svg-3.svg'
+import svg4 from '../../images/svg-3.svg'
 
 
 
@@ -10,9 +10,9 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Premium Access',
-    headline: 'Unlimited Transactions with no fee',
-    description: 'Get access to our exclusive site that allows you to send unlimited transactions without getting charged any fees',
+    topLine: 'State of The Art Facilities',
+    headline: 'Strategically Designed Offices and Conference Rooms',
+    description: 'Get access to our exclusive sites that provide flexibility to expand businesses with thoughtfully designed office spaces carefully crafted to enhance productivity, cultivate creativity and encourage professional growth',
     buttonLabel: 'Get Started',
     imgStart: false,
     img: svg2,
@@ -27,10 +27,10 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: '100% Unlimited Access',
-    headline: 'Get complete access 24/7 anywhere and anytime',
+    topLine: '100% Office support',
+    headline: 'Get 24/7 Connected color printers, scanners and  reliable Internet connection',
     description:
-      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+      'We have you covered no matter the time of the day. Enjoy access to Fast Internet Connection, Connected color printers, scanners and copiers and Constant power supply ',
     buttonLabel: 'Learn More',
     imgStart: 'start',
     img: svg1,
@@ -42,20 +42,20 @@ export const homeObjTwo = {
   
   export const homeObjThree = {
     id: 'signup',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'EASY SETUP',
-    headline: 'Super fast and simple onboarding process',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'EASY BOOKING',
+    headline: 'Book a tour and get a work space in no time',
     description:
-      "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
+      "Book a tour now or get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
     buttonLabel: 'Start Now',
     imgStart: '',
     img: svg3,
     alt: 'Vault',
-    dark: true,
-    primary: true,
-    darkText:false
+    dark: false,
+    primary: false,
+    darkText:true
 };
   
   export const homeObjFour = {
