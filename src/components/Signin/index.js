@@ -5,7 +5,7 @@ const SignIn = () => {
     return (
         <Container>
             <FormWrap>
-                <Icon to='/' >Larry GAGA</Icon>
+                <Icon to='/' >Virtual IB</Icon>
                 <FormContent>
                     <Form action="#">
                         <FormH1>Sign in to your account</FormH1>
